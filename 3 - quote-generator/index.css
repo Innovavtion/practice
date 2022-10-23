@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P";
+  font-size: 1.3rem;
+  color: white;
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+}
+
+.block-quote {
+  width: 75%;
+  height: 575px;
+  margin: 0 auto;
+  margin-top: 75px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: solid 5px rgb(255, 255, 255);
+  box-shadow: 0px 5px 5px rgb(240, 153, 168);
+
+  cursor: pointer;
+}
+
+.block-quote > div {
+  width: 85%;
+  margin: 0 auto;
+
+  align-items: center;
+  text-align: center;
+
+  text-shadow: 1px 3px 1px rgb(240, 153, 168);
+  user-select: none; /* Уберает выделение */
+}
+
+.author-quote {
+  padding-top: 35px;
+  font-size: 1rem;
+  text-shadow: none;
+}
+
+@media (max-width: 1450px) {
+  .block-quote {
+    width: 90%;
+    height: 575px;
+  }
+  .block-quote > div {
+    width: 90%;
+  }
+  * {
+    font-size: 1.2rem;
+  }
+}
