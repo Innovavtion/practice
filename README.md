@@ -4,6 +4,6 @@
 
 # List Projects
 
-|                               Project Name                               |                 Topics covered                  |
-| :----------------------------------------------------------------------: | :---------------------------------------------: |
-| [Timer](https://github.com/Innovavtion/practice/tree/main/1%20-%20timer) | EventListener, Date, Math(floor), Work with DOM |
+|                               Project Name                               |                                                                                                                                                                                        Topics covered                                                                                                                                                                                         |
+| :----------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [Timer](https://github.com/Innovavtion/practice/tree/main/1%20-%20timer) | [EventListener](https://developer.mozilla.org/ru/docs/Web/API/EventTarget/addEventListener), [Date](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date), [Math(floor)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math), [Work with DOM](https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model/Introduction) |
